@@ -1,0 +1,4 @@
+If you need to add permissions for gallery access in Android:
+After `flutter create .` edit android/app/src/main/AndroidManifest.xml and add:
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+For Android 13+ you might need other permission handling; consider requesting runtime permissions.

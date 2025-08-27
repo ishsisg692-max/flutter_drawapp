@@ -1,0 +1,20 @@
+name: flutter_draw_app
+description: A tiny demo app: pick image/video and open a drawing screen.
+publish_to: "none"
+version: 0.0.1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.7+3
+  path_provider: ^2.0.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
